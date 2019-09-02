@@ -1,0 +1,16 @@
+{
+    "name": "std/lib",
+    "description": "The new-unofficial standard runtime.  The library for the standard library: The most basic of the basic.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "A.B. Carroll",
+            "email": "ben@hl9.net"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "std/net": "Provides basic networking utilities with safety guarantees"
+    }
+}
